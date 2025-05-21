@@ -156,3 +156,15 @@ body{
     top: 25px;
     left: 28px;
 }
+
+
+/*BREAK POINTS*/
+
+@media (max-width: 977px) {
+
+.list-items{
+  font-size: 70%;
+}
+
+
+}
