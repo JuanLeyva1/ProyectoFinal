@@ -514,4 +514,9 @@ p{
   width: 100%;
   margin: auto;
 }
+
+.list-items{
+  font-size: 70%;
+}
+
 }
