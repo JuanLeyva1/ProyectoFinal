@@ -1,0 +1,158 @@
+/*CSS*/
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #000000bf;
+}
+
+.overlay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #000000bf;
+
+}
+
+.overlay .opciones{
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 69px;
+    position:relative;
+    justify-content: center;
+}
+
+.overlay .perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.overlay .foto{
+    position: relative;
+    height: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.overlay .nombre{
+    position: relative;
+    width: fit-content;
+    color: white;
+    white-space: nowrap;
+    font-style: bold;
+}
+
+.overlay .perfil{
+    position: relative;
+    width: fit-content;
+    color: white;
+    white-space: nowrap;
+}
+
+.perfile{
+    font-weight: 200;
+}
+
+.overlay .lista-opciones{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 62px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.overlay .inicio{
+    display: inline-flex;
+    align-items: center;
+    gap: 17px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.overlay .casa{
+    position: relative;
+    width: 22.5px;
+    height: 20.69px;
+}
+
+.overlay .inicio-text{
+    position: relative;
+    width: fit-content;
+    margin-top: -0.16px;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    font-weight: 200;
+}
+
+
+.overlay .buscar{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.overlay .lupa{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.overlay .buscar-text{
+    position: relative;
+    width: fit-content;
+    margin-top: -0.50px;
+    color: white;
+    white-space: nowrap;
+    font-weight: 200;
+}
+
+.overlay .favoritos{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+    color: white;
+    font-weight: 200;
+}
+
+.overlay .corazon{
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.overlay .cerrar{
+    display: inline-flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+    font-weight: 200;
+    color: white;
+}
+
+.overlay .puerta{
+    display:inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.overlay .back{
+    position: absolute;
+    size: 10%;
+    top: 25px;
+    left: 28px;
+}
